@@ -3,15 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- fontawesome and costom CSS -->
-    <link rel="stylesheet" href="css.css">
+    <!-- fontawesome and custom CSS -->
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="fontawesome-free-5.14.0-web\css\all.css">  
     <title>TEST</title>
 </head>
 <body>
     <header class="flex-cointanier">
-        <a href="#">
-        <img class="logo" src="img/logo.png" alt="pizza"></a>
+        <a href="#" class="logo-link">
+            <img class="logo" src="img/logo.png" alt="pizza">
+            <h1>Pizza Fast!</h1>
+        </a>
         <nav class="nav-links">
             <a href="#">Feature</a>
             <a href="#">How it's made</a>
@@ -20,49 +22,59 @@
     </header>
     <main>
 
-        
             <section id="hero">
-            <h2>Subcribe to our newsletter</h2>
-            <input type="text" placeholder="Email here!">
-            <input class="btn" type="submit" name="submit" id="submit-button" value="Submit">
+            <h2>Sign up to get discount codes.</h2>
+            <input class="email-input" type="email" placeholder="Enter your email ID here!">
+            </b><input class="btn" type="submit" name="submit" id="submit-button" value="Get Started">
             </section>
 
             <div class="center-cointanier">
             <section id="features">
-                <div>
-                    <i class="fas fa-3x fa-motorcycle"></i>
-                    <h2>Fast Home Delivery</h2>
-                    <p>
-                        We make sure you recieve your Pizza as soon as we have made it.</br>
-                        We also provide free pizza if you are not satisfied with out delivery.
-                    </p>
+
+                <div class="grid">
+                    <div class="icon"><i class="fas fa-3x fa-motorcycle"></i></div>
+                    <div class="description">
+                        <h2>Fast Home Delivery</h2>
+                        <p>
+                            We make sure you recieve your Pizza as soon as we have made it.
+                            We also provide free pizza if you are not satisfied with out delivery.
+                        </p>
+                    </div>
                 </div>
-                <div>
-                    <i class="fas fa-3x fa-pepper-hot"></i>
-                    <h2>Fresh Vegetables</h2>
-                    <p>
-                        We use some of the most freshesh Vegetables for all out pizzas.</br>
-                        You wil get some of the most crunchiest pizza toppings every
-                    </p>
+
+                <div class="grid">
+                    <div class="icon"><i class="fas fa-3x fa-pepper-hot"></i></div>
+                    <div class="description">
+                        <h2>Fresh Vegetables</h2>
+                        <p>
+                            We use the freshest vegetables for all our pizzas.
+                            You wil get some of the most crunchiest pizza toppings every
+                        </p>
+                    </div>
                 </div>
-                <div>
-                    <i class="fas fa-3x fa-pizza-slice"></i>
-                    <h2>Delicious Pizza</h2>
-                    <p>
-                        We make it a point to make every pizza we make the best we can. </br>
-                        We also provide free pizza if you are not satisfied with out delivery.
-                    </p>
+
+                <div class="grid">
+                    <div class="icon"><i class="fas fa-3x fa-pizza-slice"></i></div>
+                    <div class="description">
+                        <h2>Delicious Pizza</h2>
+                        <p>
+                            We make it a point to make every pizza we make the best we can. 
+                            We also provide free pizza if you are not satisfied with out delivery.
+                        </p>
+                    </div>
                 </div>
+
             </section>
 
-
+            <section id="how-its-made">
             <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/6GEyjhoiJ_0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </section>
 
             <section id="price">
 
                 <div class="product" id="tenor">
                     <div class="level">Tenor Trombone</div>
-                    <h2>$600</h2>
+                    <h2>$10</h2>
                     <ol>
                         <li>Lorem ipsum.</li>
                         <li>Lorem ipsum.</li>
@@ -74,7 +86,7 @@
 
                 <div class="product" id="tenor">
                     <div class="level">Tenor Trombone</div>
-                    <h2>$600</h2>
+                    <h2>$50</h2>
                     <ol>
                         <li>Lorem ipsum.</li>
                         <li>Lorem ipsum.</li>
@@ -86,7 +98,9 @@
 
                 <div class="product" id="tenor">
                     <div class="level">Tenor Trombone</div>
-                    <h2>$600</h2>
+                    <h2>$100
+
+                    </h2>
                     <ol>
                     <li>Lorem ipsum.</li>
                     <li>Lorem ipsum.</li>
