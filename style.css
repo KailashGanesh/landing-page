@@ -70,7 +70,7 @@ header{
     height: 40px;
     font-size: 1em;
     font-weight: 500;
-    /* border: 3px black solid; */
+    border: none;
     border-radius: 3px;
     cursor: pointer;
     padding: 0px 20px 0px 20px;
@@ -128,22 +128,47 @@ header{
 }
 
 #how-its-made{
-    margin: 20px;
+    margin: 40px;
 }
 
 #price{
     display: flex;
-    align-items: center;
-    justify-content: space-evenly;
+    /* align-items: center; */
+    justify-content: center;
     width: 100%;
 }
 .product{
-
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    width: 300px;
+    height: 350px;
+    margin: 30px;
+    /* padding: 0px 50px 50px 50px; */
+    border: 1px solid black;
+    border-radius: 1px;
+}
+.product .level{
+    background-color: lightgray;
+    text-transform: uppercase;
+    align-self: flex-start;
+    font-weight: 700;
+    padding: 15px;
+    width: 100%;
 }
 
-.product  li{
+
+.product ol li{
     list-style: none;
+    line-height: 2;
 }
+
+.product .btn{
+    margin: 20px;
+}
+
 footer{
     position: fixed;
     /* height: 40px; */
