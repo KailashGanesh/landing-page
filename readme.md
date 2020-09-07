@@ -1,0 +1,2 @@
+- Pizza logo from this [website](https://www.hiclipart.com/free-transparent-background-png-clipart-iabag)
+- font from [Google fonts](https://fonts.google.com/specimen/Montserrat?query=mont&sidebar.open=true&selection.family=Montserrat:wght@500#standard-styles)

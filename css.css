@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600;700;800;900&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Lato:400,700");
+
+.colors-hex-codes{
+color: #3F84E5;
+color: #FF5A5F;
+color: #3C3C3C;
+color: #F7F5FB;
+}
+
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+body{
+    font-family: "Montserrat", sans-serif;
+    background-color: #F7F5FB;
+}
+
+header{
+    position: sticky;
+    top:0;
+    width:100%;
+}
+
+.logo{
+    height: 40px;
+}
+
+.flex-cointanier{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width:100%;
+    background-color: #3C3C3C;
+    /* background-color:#3F84E5; */
+    /* color:#3C3C3C; */
+}
+
+.nav-links a{
+    text-decoration:none;
+    /* color:#3C3C3C; */
+    color: #3F84E5;
+    color: white;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+.nav-links a:hover{
+    color:#FF5A5F;
+}
+
+.center-cointanier{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.btn {
+    height: 40px;
+    font-size: 1em;
+    font-weight: 500;
+    /* border: 3px black solid; */
+    border-radius: 3px;
+    cursor: pointer;
+    background-color: #f5a100;
+}
+#hero{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 200px;
+    margin-top: 50px;
+}
+#features{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+#price{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+}
+.product{
+
+}
+
+.product  li{
+    list-style: none;
+}
+footer{
+    position: fixed;
+    /* height: 40px; */
+    line-height: 2.1;
+    padding: 4px 0px 0px 0px;
+    margin-top: 30px;
+    padding-top: 4px;
+    left: 0;
+    /* bottom: 0; */
+    height: auto;
+    width: 100%;
+    overflow: hidden;
+    position: absolute;
+}
+.footer{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #3C3C3C;
+    background-color: #ddd;
+    padding-right: 70px;
+
+}
+
+.footer-links a{
+    text-decoration:none;
+    /* color: #3F84E5; */
+    color: #3C3C3C;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+.footer-links a:hover{
+    color:#FF5A5F;
+}
+
+.footer-links span{
+    padding-left: 4em;
+    padding-right: 4em;
+    /* color: #F7F5FB; */
+    color: #3C3C3C;
+    font-size: 0.8em;
+}
