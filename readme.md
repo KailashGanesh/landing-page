@@ -1,5 +1,5 @@
 # Landing Page Template
-Live demo [click here]()
+Live demo [click here](https://kailashganesh.github.io/landing-page/)
 - Made from stracth with HTML and CSS
 - Used Fontawesome for the icons.
 - Pizza logo from this [website](https://www.hiclipart.com/free-transparent-background-png-clipart-iabag)
