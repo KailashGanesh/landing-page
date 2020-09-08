@@ -48,13 +48,19 @@ header{
     /* color:#3C3C3C; */
 }
 
-.nav-links a{
-    text-decoration:none;
-    /* color:#3C3C3C; */
-    color: #3F84E5;
+.menu{
+    display: none;
+}
+
+a{
     color: white;
+    text-decoration:none;
+}
+.nav-links a{
+    /* color:#3C3C3C; */
     padding-left: 2em;
     padding-right: 2em;
+    transition: all 0.3s ease 0s;
 }
 @media (max-width:450px){
     .nav-links{
@@ -64,6 +70,76 @@ header{
 .nav-links a:hover{
     color:#f5a100;
 }
+
+.menu{
+    background-color: #24252a;
+    color:white;
+    border:none;
+    transition: all 0.3s ease 0s;
+    /* border-radius: ; */
+}
+
+.menu:hover{
+    color:#f5a100;
+}
+
+@media only screen and (max-width:800px){
+    .nav-links{
+        display: none;
+    }
+    .menu {
+        display: inherit;
+    }
+}
+/* mobile nav start*/
+.overlay{
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    background-color: #24252a;
+    overflow-x: hidden;
+    transition: all 0.5s ease 0s;
+}
+
+.overlay-content{
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.overlay a {
+    padding: 15px;
+    font-size: 36px;
+    display: block;
+    transition: all 0.3s ease 0s;
+}
+
+.overlay a:hover, .overlay a:focus{
+    color:#f5a100;
+}
+
+.overlay .close-btn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+@media screen and (max-height: :450px){
+    .overlay a {
+        font-size: 20px;
+    }
+    .overlay .close-btn{
+        font-size: 40px;
+        top: 15px;
+        right: 35px;
+    }
+}
+/* mobile nav end */
 
 .center-cointanier{
     display: flex;
