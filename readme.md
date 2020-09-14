@@ -3,9 +3,9 @@
 Live demo [click here](https://kailashganesh.github.io/landing-page/)  
 
 ## ScreenShots
-![screenshot of landing page](img\Screenshot-1.jpg)  
+![screenshot of landing page](https://raw.githubusercontent.com/KailashGanesh/landing-page/master/img/Screenshot-1.jpg)  
 
-![screenshot of landing page](img\Screenshot-2.jpg)  
+![screenshot of landing page](https://raw.githubusercontent.com/KailashGanesh/landing-page/master/img/Screenshot-2.jpg)  
 
 
 ## Details about WebPage
