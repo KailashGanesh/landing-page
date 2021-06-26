@@ -8,17 +8,18 @@
     <link rel="stylesheet" href="fontawesome-free-5.14.0-web\css\all.css">  
     <title>PizzaFast!</title>
     <script src="mobile-nav.js" defer></script>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js" defer></script>
 </head>
 <body>
-    <header class="flex-cointanier">
+    <header id="header" class="flex-cointanier">
         <a href="#" class="logo-link">
-            <img class="logo" src="img/logo.png" alt="pizza">
+            <img class="logo" id="header-img" src="img/logo.png" alt="pizza">
             <h1>Pizza Fast!</h1>
         </a>
-        <nav class="nav-links">
-            <a href="#hero">Feature</a>
-            <a href="#how-its-made">How it's made</a>
-            <a href="#price">Price</a>
+        <nav class="nav-links" id="nav-bar">
+            <a href="#hero" class="nav-link">Feature</a>
+            <a href="#how-its-made" class="nav-link">How it's made</a>
+            <a href="#price" class="nav-link">Price</a>
         </nav>
         <button onclick="openNav()"class="menu"><i class="fas fa-2x fa-bars"></i></button>
     </header>
@@ -35,9 +36,11 @@
     <main>
 
             <section id="hero">
-            <h2>Sign up to get <u>Discount codes</u></h2>
-            <input class="email-input" type="email" placeholder="Enter your email ID here!">
-            </b><input class="btn" type="submit" name="submit" id="submit-button" value="Get Started">
+                <form id="form" action="https://www.freecodecamp.com/email-submit" method="POST">
+                    <h2>Sign up to get <u>Discount codes</u></h2>
+                    <input class="email-input" type="email" name="email" placeholder="Enter your email ID here!" id="email">
+                    </b><input class="btn" type="submit" name="submit" id="submit" value="Get Started">
+                </form>
             </section>
 
             <div class="center-cointanier">
@@ -79,7 +82,7 @@
             </section>
 
             <section id="how-its-made">
-            <iframe  height="315" src="https://www.youtube-nocookie.com/embed/6GEyjhoiJ_0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe  height="315" src="https://www.youtube-nocookie.com/embed/6GEyjhoiJ_0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen id="video"></iframe>
             </section>
 
             <section id="price">
